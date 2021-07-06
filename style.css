@@ -234,3 +234,7 @@ footer a:hover{
     background-repeat:no-repeat;
     min-height:90vh;
 }
+
+.gallery [class*='col-']{
+    padding:2%;
+  }
