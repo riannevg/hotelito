@@ -17,6 +17,14 @@ LIGHT GREEN:#08D8A0 */
     margin:0;
 }
 
+[class*="grid-"], [class*="grid_"], [class~="grid"]{
+    margin:0;
+}
+
+
+body{
+    background-color:#F7F3F0;
+}
 /* Reusable Utility classes */
 
 .padded     {padding:5%;}
@@ -90,11 +98,110 @@ nav a{
     font-weight:400;
     font-size:1.2rem;
     text-transform:uppercase;
-}
+    }
 
 nav a:hover{
-    font-weight:700;
-    border-bottom:2px solid;
+    border-bottom:2px solid #08D8A0;
     line-height:0.9;
+    
 }
 
+/* LINK styles */
+
+.link{
+    color: #1C2F4A;
+    text-decoration:none;
+    border-bottom:2px solid;
+    display:block;
+    margin-top:1.5rem;
+    }
+
+.link:hover{
+    border-bottom:2px solid #08D8A0;
+}
+
+
+
+.link-feature a{
+    color:#1C2F4A;
+    font-family:Montserrat, sans-serif;
+    font-weight:300;
+    font-size:1.5rem;
+    text-decoration:none;
+    padding:1rem 0;
+    display:block;   
+
+}
+
+.link-feature a:hover{
+    color:#08D8A0;
+}
+
+
+footer a{
+    color:#F7F3F0;
+    padding:0.5rem;
+    font-size:2rem;
+}
+
+footer a:hover{
+    color:#1C2F4A;
+}
+
+/* Image styles */
+
+.big-image-1{
+    background-image:url(/images/hotel-room-1.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    
+}
+
+.card-image-1{
+    background-image:url(/images/hotel-room-1.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:50vh;
+}
+
+.card-image-2{
+    background-image:url(/images/hotel-bed-1.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:50vh;
+}
+
+.card-image-3{
+    background-image:url(/images/restaurant-1.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:50vh;
+}
+
+.big-image-2{
+    background-image:url(/images/hotel-room-1.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:60vh;
+}
+
+.rooms-banner-image{
+    background-image:url(/images/hotel-room-1.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:90vh;
+}
+
+.restaurant-banner-image{
+    background-image:url(/images/restaurant-1.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:90vh;
+}
