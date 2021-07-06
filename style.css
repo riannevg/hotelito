@@ -99,6 +99,15 @@ body{
     font-weight:700;
     }
 
+.menu-text{
+    font-family:'Cormorant Garamond',serif;
+    font-weight:700;
+    font-size:3rem;
+    line-height:0.9;
+    margin-top:1.5rem;
+    color:#F7F3F0;
+}
+
 
 /* nav bar styling */
 
@@ -118,6 +127,23 @@ nav a:hover{
     border-bottom:2px solid #08D8A0;
     line-height:0.9;
     
+}
+
+.menu-link{
+    color:#F7F3F0;
+    font-family:Montserrat, sans-serif;
+    text-decoration:none;
+    font-weight:400;
+    font-size:1.2rem;
+    text-transform:uppercase;
+    display:block;
+    margin-top:1rem;
+}
+
+
+
+.menu-link:hover{
+    color:#08D8A0;
 }
 
 .card a{
