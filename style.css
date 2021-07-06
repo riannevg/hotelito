@@ -39,7 +39,7 @@ body{
 .vh-50      {max-height:50vh;}
 
 .bg-image   {
-    background-image:url(/images/hotel-pool.jpg);
+    background-image:url(/images/hotelito.jpg);
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -110,6 +110,11 @@ body{
 
 
 /* nav bar styling */
+.logo{
+    text-decoration:none;
+}
+
+
 
 header .big-text{
     margin-top:0;
@@ -222,7 +227,7 @@ footer a:hover{
 }
 
 .card-image-2{
-    background-image:url(/images/hotel-bed-1.jpg);
+    background-image:url(/images/hotelito-room2.jpg);
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -230,7 +235,7 @@ footer a:hover{
 }
 
 .card-image-3{
-    background-image:url(/images/restaurant-1.jpg);
+    background-image:url(/images/hotelito-room-3.jpg);
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -238,7 +243,7 @@ footer a:hover{
 }
 
 .big-image-2{
-    background-image:url(/images/hotel-room-1.jpg);
+    background-image:url(/images/hotelito-room-4.jpg);
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -261,43 +266,42 @@ footer a:hover{
     min-height:90vh;
 }
 
+
+
 .gallery [class*='col-']{
     padding:2%;
   }
 
 
-/* contact form styles */
-
-  form input, form textarea{
-    width:100%;
-    margin:0.5rem 0;
-    padding:0.5rem;
-    border:2px solid rgb(220,220,220);
-    outline:none;
-    font-family:inherit;
-    font-size:0.9rem;  
+  .gallery .bg-image-1{
+    background-image:url('/images/hotelito-food-1.jpg');
   }
   
-  form input:focus, form textarea:focus{
-    border-color:teal;
+  .gallery .bg-image-2{
+    background-image:url('/images/hotelito-food-2.jpg');
   }
   
-  textarea{
-    min-height:6rem;
+  .gallery .bg-image-3{
+    background-image:url('/images/hotelito-food-3.jpg');
+  }
+    
+  .gallery .bg-image-4{
+    background-image:url('/images/hotelito-food-4.jpg');
   }
   
-  form label{
-    margin-top:1rem;
-    display:block;
-    color:#6C7A89;
-    font-weight:bold;
+  .gallery .bg-image-5{
+    background-image:url('/images/hotelito-food-5.jpg');
   }
   
-  form button{
-    background-color:#6C7A89;
-    color:white;
-    border:none;
-    padding:0.5rem 2rem;
-    letter-spacing:0.1rem;
-    margin: 0.5rem 0;
+  .gallery .bg-image-6{
+    background-image:url('/images/hotelito-food-6.jpg');
+  }
+  
+  .gallery .bg-image-7{
+    background-image:url('/images/hotelito-food-7.jpg');
+  }
+  
+  
+  .catering{
+      background-image:url('/images/hotelito-catering.jpg');
   }
