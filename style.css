@@ -34,7 +34,7 @@ body{
 .center     {text-align:center;}
 .right      {text-align:right;}
 
-.vh-100     {max-height:100vh:}
+.vh-100     {max-height:100vh;}
 .vh-80      {max-height:80vh;}
 .vh-50      {max-height:50vh;}
 
@@ -54,6 +54,20 @@ body{
     color:#F7F3F0;
     background-color:#434C43;
 }
+
+.portrait-tall  {padding-bottom:175%;}
+.portrait       {padding-bottom:125%;}
+.square         {padding-bottom:100%;}
+.square-esp       {padding-bottom:135%;}
+.landscape      {padding-bottom:66%;}
+.landscape-wide {padding-bottom:56%;}
+
+
+/* background position utillity classes */
+.bg-pos-top     {background-position:top;}
+.bg-pos-bottom  {background-position:bottom;}
+.bg-pos-left    {background-position:left;}
+.bg-pos-right   {background-position:right;}
 
 
 /* text utility classes */
@@ -82,7 +96,7 @@ body{
 
 .header-text{
     color:#F7F3F0;
-    weight:700;
+    font-weight:700;
     }
 
 
@@ -104,6 +118,21 @@ nav a:hover{
     border-bottom:2px solid #08D8A0;
     line-height:0.9;
     
+}
+
+.card a{
+    color:#434C43;
+    font-family:Montserrat, sans-serif;
+    text-decoration:none;
+    font-weight:400;
+    font-size:1rem;
+    text-transform:uppercase;
+    
+}
+
+.card a:hover{
+    border-bottom:2px solid #08D8A0;
+        
 }
 
 /* LINK styles */
@@ -163,7 +192,7 @@ footer a:hover{
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-    min-height:40vh;
+    
 }
 
 .card-image-2{
@@ -171,7 +200,7 @@ footer a:hover{
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-    min-height:40vh;
+    
 }
 
 .card-image-3{
@@ -179,7 +208,7 @@ footer a:hover{
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-    min-height:40vh;
+  
 }
 
 .big-image-2{
