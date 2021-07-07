@@ -97,6 +97,9 @@ body{
 .header-text{
     color:#F7F3F0;
     font-weight:700;
+    background-color:#1C2F4A;
+    opacity:70%;
+    line-height:1.2;
     }
 
 .menu-text{
