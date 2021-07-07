@@ -308,3 +308,131 @@ footer a:hover{
   .catering{
       background-image:url('/images/hotelito-catering.jpg');
   }
+
+
+
+  /* media queries */
+
+.show-xs,
+.show-sm,
+.show-md{
+    display:none;
+}
+
+
+  /* Medium size screens (64 em = 1024 px) */
+  @media(max-width:64em){
+
+.show-md{display:block;}
+.hide-md{display:none;}
+
+nav a{
+    font-size:1.0rem;
+    }
+
+ .big-text{
+    font-size:2rem;
+    }
+
+.bg-image   {
+    min-height:40vh;
+            }
+
+
+ .big-image-2{
+    min-height:40vh;
+     }
+
+  }
+  .rooms-banner-image{
+    min-height:40vh;
+}
+
+.restaurant-banner-image{
+    min-height:40vh;
+}
+
+.mob-padded-1{padding:1rem;}
+  
+
+  /* small size screens (48 em == 768 px) */
+  @media(max-width:48em){
+
+.show-sm{display:block;}
+.hide-sm{display:none;}
+
+.padded-1{
+    padding:0;
+}
+
+
+nav a{
+    font-size:0.8rem;
+    }
+
+
+    .normal-text{
+    font-size:0.8rem;
+    line-height:1;
+    }   
+
+.big-image-2{
+    margin-top:1rem;
+}
+
+.card a{
+    font-size:0.8rem;
+   }
+
+footer .padded-1{
+    padding:1rem;
+}
+
+.card,
+ul{
+    margin-bottom:1rem;
+}
+
+.menu-link{
+    
+    font-size:0.8rem;
+   
+    margin-top:0.5rem;
+}
+
+
+.menu-text{
+    font-size:2rem;
+    margin-top:1rem;
+   
+}
+
+.catering{
+    max-height:50vh;
+    margin-bottom:1rem;
+}
+
+.catering-text{
+    margin-bottom:1rem;
+}
+
+}
+
+
+
+  /* XS small size screens (36 em = 576px) */
+  @media(max-width:36em){
+
+.show-xs{display:block;}
+.hide-xs{display:none;}
+
+
+ p,
+ li{
+    font-size:0.6rem;
+}
+
+.bg-image{
+    max-height:20%;}
+
+}
